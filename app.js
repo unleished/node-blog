@@ -1,7 +1,7 @@
 /* app.js */
 
 // require and instantiate express
-const app = require('express') {}
+const app = require('express') ()
 
 // face posts to simulate a database
 const posts = [
@@ -16,13 +16,13 @@ const posts = [
     author: 'Drake',
     title: 'Express: Starting from the Bottom',
     body: 'Blog post number 2'
-  }
+  },
   {
     id: 3,
     author: 'Emma',
     title: 'Streams',
     body: 'Blog post number 3'
-  }
+  },
   {
     id: 4,
     author: 'Cody',
